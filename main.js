@@ -14,7 +14,6 @@
     }
 
     function createCustomer(img, name, text){
-        // console.log(img)
         let Img = `./img/${img}.png`
         let customer = new Customer(Img, name, text)
 
